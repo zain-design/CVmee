@@ -10,7 +10,7 @@
             </div>
         </li>
         <div class="mb-2">
-            <b>Others</b>
+            <b>Yang lain</b>
             <ul class="tech-list">
                 <li style="display: inline-block;margin-right: 0.5rem;" v-for="(skill,index) in otherSkillInfo" :key="index">
                    {{skill}}
@@ -19,7 +19,7 @@
             </ul>
         </div>
         <div>
-            <b>Professional</b>
+            <b>SoftSkill</b>
             <ul class="tech-list">
                 <li style="margin-right: 0.5rem;" v-for="(skill,index) in proSkillInfo" :key="index">
                     {{skill}}

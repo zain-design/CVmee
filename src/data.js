@@ -1,127 +1,100 @@
 const introInfo = {
-    name: 'Emre COŞKUNÇAY',
-    title: 'Full Stack Developer',
-    location: 'Ankara, Turkey',
-    description: '<strong>Turpis, sit amet iaculis dui consectetur at.</strong> Cras sagittis molestie orci. <strong>Suspendisse ut laoreet mi</strong>. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim <strong>condimentum id</strong>. Etiam eget iaculis tellus. Varius sit amet.',
+    name: 'Zainuz Zuha',
+    title: 'Mahasiswa Pengangguran',
+    location: 'Jepara, Indonesia',
     image: 'ec.jpg',
 }
 
 //dynamic icon
 const socialMediaInfo = [{
         name: 'linkedin',
-        link: 'https://www.linkedin.com/in/coskuncayemre/',
-        username: 'coskuncayemre',
-        displayName: 'linkedin/coskuncayemre'
+        link: 'https://www.linkedin.com/in/z-zuha/',
+        username: 'zainuz zuha',
+        displayName: 'linkedin.com/z-zuha'
     },
 
     {
         name: 'github',
-        link: 'https://github.com/coskuncayemre',
-        username: 'coskuncayemre',
-        displayName: 'github/coskuncayemre'
-    },
-    // {
-    //     name: 'globe',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName: 'emrecoskuncay.com'
-    // },
-    // {
-    //     name: 'stack-overflow',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName:'stackoverflow.com'
-    // },
+        link: 'https://github.com/zain-design',
+        username: 'zain-design',
+        displayName: 'github.com/zain-design'
+    }
 ]
 
 
 const contactInfo = [
     {
         name: 'envelope',
-        context: 'emrecoskuncay@gmail.com',
+        context: 'zainuzzuha@gmail.com',
         size: '20px',
         style: "font-size:20px;margin-right: 10px;",
-        link: 'mailto:emrecoskuncay@gmail.com'
+        link: 'mailto:zainuzzuha@gmail.com'
     },
     {
         name: 'phone-square',
-        context: '+905542694056',
+        context: '+62082121212803',
         size: '23px',
         style: "font-size:23px;margin-right: 10px;",
-        link: 'tel:+905542694056'
+        link: 'tel:+6282121212803'
     },
 ]
 
 const summaryInfo = 
-    'Hello, It\'s Emre from Ankara,Turkey.I have +2 years of experience with Vue.JS, .NET Core, Docker, Kubernetes with a focus on RestAPIs, MVC and micro-services.My priority is to improve reusability and write generic code. In my social life, I\'m a backpacker.I have visited 22 countries and I am excitedly waiting for this number to increase. In addition, I enjoy talking about new startup ideas.'
+    'Hallo, nama saya Zainuz Zuha. saya adalah mahasiswa Universitas Muria Kudus semester 6 program studi Teknik Informatika. Saya sangat tertarik dengan bidang literasi dan teknologi. Saya mendalami pemograman web khususnya Front-end Development. saya menguasai HTML5, CSS3 dan Javascript ES6. Saya menguasai frame work VUe js, namun juga memiliki pengalaman dengan framework lain seperti Code Igniter dan Laravel sebagai back-end.'
 
 
 //desc v-html 
 const experinceInfo = [
     {
-        workAt: 'Aselsan',
-        position: 'Software Engineer',
-        duration: 'Dec 2019 – Present',
-        description: 'Work as a full stack software engineer.',
-        techs: ["Vue.JS", ".NET Core", "Docker", "Kubernetes", "PostgreSQL"]
+        workAt: 'Freelancer',
+        position: 'Layouter',
+        duration: '2019 – Present',
+        description: 'berkerja sebagai layouter majalah bebas',
+        techs: ["Adobe Indesign", "CorelDraw"]
     },
     {
-        workAt: 'Aselsan (Intern)',
-        position: 'Software Engineer',
-        duration: 'Jul 2019 - Sep 2019',
-        description: 'Developed desktop application, wrote relevant documents and prepared unit tests.Wrote requirements documents, project definition documents and test procedures.',
-        techs: ["Java","JUnit","SQL"]
+        workAt: 'Penakampus.online',
+        position: 'web Admin',
+        duration: 'jan 2021 - des 2021',
+        description: 'memanage halaman portal berita LPM pena kampus.',
+        techs: ["Blogger", "xml"]
     },
     {
-        workAt: 'Innova (Intern)',
+        workAt: 'LPK Widi Course',
         position: 'Full Stack Developer',
-        duration: 'Jun 2018 – Aug 2018',
-        description: 'Took part in the development team of Public Wi-Fi project.Designed simple welcome page.',
-        techs: ["NodeJS"]
+        duration: 'Jan 2022 - feb 2022',
+        description: 'mengerjakan aplikasi penerimaan peserta didik baru.',
+        techs: ["Code Igniter"]
     },
     {
-        workAt: 'DüğünSitemiz',
-        position: 'Founder',
-        duration: 'Jun 2016 – Dec 2019',
-        description: 'DüğünSitemiz is a special website project for couples to marry. This project aims to remove couples RSVP difficulties. It is our honor to make better their happiest day of life.',
-        techs: ["Python", "Django", "MongoDB"]
+        workAt: 'LPM Pena Kampus',
+        position: 'Pimpinan Umum',
+        duration: 'Jan 2022 - Present',
+        description: 'Sebagai ketua organisasi kemahasiswaan yang memiliki fokus bidang kejurnalistikan.',
+        techs: ["Leadership"]
     },
-    {
-        workAt: 'Estiva Werbeagentur,Austria',
-        position: 'Freelance Web Developer',
-        duration: 'Jan 2018 – Aug 2018',
-        description: '',
-        techs: ["Wordpress", "HTML/CSS"]
-    },
-    {
-        workAt: 'Akman TZOB Hotel,Turkey',
-        position: 'Social Media Manager',
-        duration: 'Dec 2017 – Sep 2018',
-        description: '',
-        techs: ['Adobe Illustrator']
-    }
 ]
 
 const educationInfo = [
     {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'MSc in Data Engineering',
-        duration: '2021 – Current',
+        school: 'Pondok Pesantren Ali Maksum',
+        location: 'Bantul, Yogyakarta',
+        title: 'Santri',
+        duration: '2012-2019',
         description: '',
     },
     {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'BSc in Computer Science',
-        duration: '2015 – 2020',
-        description: '<b>GPA:</b> 3.38/4.00',
+        school: 'Multimedia University',
+        location: 'Malaysia',
+        title: 'BSc in Technology Information',
+        duration: '2021',
+        description: '',
     },
     {
-        school: 'The English Studio Language School',
-        location: 'London,UK',
+        school: 'Universitas Muria Kudus',
+        location: 'Kudus, Indonesia',
         title: 'Student',
-        duration: 'Aug 2018 – Oct 2018',
+        duration: '2019 - Present',
         description: '',
     },
 ]
@@ -134,20 +107,14 @@ const volunteerInfo = [
     //     description: 'London,UK',
     // },
     {
-        organisation: 'Hacettepe University,Social Life Organization',
+        organisation: 'UKM Jurnalistik',
         title: 'Organization Manager',
-        duration: '2015 – 2021',
+        duration: '2019 - present',
         description: '',
     }, {
-        organisation: 'Hacettepe University,Community of Contest',
-        title: 'Organization Manager',
-        duration: '2016 – 2018',
-        description: '',
-    },
-    {
-        organisation: 'Hacettepe University ACM',
-        title: 'Member',
-        duration: '2015 – 2020',
+        organisation: 'Developer Student Community by Google',
+        title: 'member',
+        duration: '2020 - present',
         description: '',
     }
 ]
@@ -155,15 +122,15 @@ const volunteerInfo = [
 
 const certificateInfo = [
     {
-        organisation: 'Red Hat',
-        title: 'Red Hat Certified System Administrator RH124',
+        organisation: 'Dicoding',
+        title: 'sertifikat roadmap front-end developer',
         duration: 'Feb,2021',
         description: '',
     },
     {
-        organisation: 'KOSGEB',
-        title: 'Entrepreneurship Certificate',
-        duration: 'Jun,2019',
+        organisation: 'Kominfo',
+        title: 'entrepeneur content creator',
+        duration: 'sep 2021',
         description: '',
     },
 ]
@@ -213,65 +180,65 @@ const skillInfo = [
         rate: 90,
     },
     {
-        name: '.NET Core',
-        rate: 65,
+        name: 'Html/CSS',
+        rate: 90,
     },{
-        name: 'Flutter',
-        rate: 78,
+        name: 'Php',
+        rate: 55,
     }, 
     {
         name: 'VueJS',
         rate: 90,
     },
     {
-        name: 'Docker',
+        name: 'Apps Script',
         rate: 85,
     },
     {
-        name: 'HTML/CSS',
-        rate: 85,
+        name: 'Python',
+        rate: 50,
     },
     
 ]
 
-const otherSkillInfo = ['Kubernetes','Nginx','Git','WebGL','MVC','Bootstrap','Jira','TFS']
+const otherSkillInfo = ['CorelDraw', 'Indesign', 'office', 'git', 'nodeJs', 'Notion']
 
-const proSkillInfo = ['Leadership','Effective communication','Team player','Strong problem solver',]
+const proSkillInfo = ['Leadership','Komunikasi yang baik','Cepat belajar','Strong problem solver',]
 
 // 0,1,2,3,4,5
 const languageInfo = [{
-        name: 'Turkish',
+        name: 'Bahasa Indonesia',
         rate: 5,
         level: 'Native',
     },
     {
         name: 'English',
         rate: 4,
-        level: 'Int',
+        level: 'Intermediete',
     },
     {
-        name: 'German',
+        name: 'Arab',
         rate: 1,
-        level: 'Ele',
+        level: 'Elementary',
     }
 ]
 
 
 
 const interestInfo = [{
-        name: 'Traveler',
-        description: "22 Countries,for now",
+        name: 'writer',
+        description: "menulis baik fiksi dan essay",
     },
     {
-        name: 'Swimming',
+        name: 'Bersepeda',
         description: "",
     },
     {
-        name: 'Entrepreneurship Ideas',
-        description: "",
+        name: 'Book reviewer',
+        description: "10+ buku telah direview",
     },
     {
-        name: 'Smart Home Ideas',
+        name: 'DIY',
         description: "",
     },
 ]
